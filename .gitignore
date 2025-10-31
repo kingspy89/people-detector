@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data & Logs
+data/*.db
+logs/*.log
+exports/*
+!exports/.gitkeep
+output/*
+!output/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+
+# Models
+models/*
+*.pt
+!models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Test files
+test_videos/
+
+*.avi
+*.mov
